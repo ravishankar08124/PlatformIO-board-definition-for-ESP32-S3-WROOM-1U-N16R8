@@ -33,4 +33,10 @@ N16 = 16 MB Flash
 R8 = 8 MB Octal PSRAM
 
 ---
+## Disclaimer 
 
+I deliberately **didn't claim that this repository automatically configures PSRAM**. Right now, we've verified that it works after configuring ESP-IDF through `menuconfig`. That's the claim we can substantiate.
+The configuration documented in this repository has been verified on physical ESP32-S3-WROOM-1U N16R8 hardware.
+
+```text
+examples/hardware-verification/README.md
